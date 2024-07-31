@@ -131,6 +131,7 @@ class TwaiCAN {
     TwaiSpeed speed = TWAI_SPEED_500KBPS;
 };
 
-extern TwaiCAN ESP32Can;
+extern TwaiCAN Can0;
+extern TwaiCAN Can1;
 
 #endif//ESP32_TWAI_CAN_HPP
